@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - program that prints either number
- * or fizz or buzz or fizzBuzz
+ * main - program that prints either number or ..
+ * @void: No parameter
  *
- *
+ *Return: Return 0 on success
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 			if (num != 100)
 				printf("Buzz ");
 			else
-				printf("Buzz");
+				printf("Buzz ");
 		}
 		else
 			printf("%d ", num);
