@@ -9,8 +9,5 @@
  */
 void _puts(char *str)
 {
-	char text[70];
-
-	strcpy(text, str);
-	puts(text);
+	puts(str);
 }
